@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+
+      "PDF_Reader_Server": {
+          "command": "C:\\ProgramData\\miniconda3\\envs\\mcp_rnd\\python.exe",
+          "args": ["c:\\projects\\mcp_rnd\\pdf_reader_server.py"],
+          "cwd": "c:\\projects\\mcp_rnd\\"
+      },
+      "JPEG_server": {
+          "command": "C:\\ProgramData\\miniconda3\\envs\\mcp_rnd\\python.exe",
+          "args": ["c:\\projects\\mcp_rnd\\jpeg_mcp_server.py"],
+          "cwd": "c:\\projects\\mcp_rnd\\"
+        }
+    }
+}
