@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("JPEG_server")
 
 # Initialize FastMCP server
-mcp = FastMCP("JPEG_server",port=8001)
+mcp = FastMCP("JPEG_server",port=10000)
 
 def textsize(text, font):
     im = Image.new(mode="P", size=(0, 0))
